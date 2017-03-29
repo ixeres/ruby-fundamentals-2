@@ -7,7 +7,7 @@ my_dogs = [
 their_dogs = [
   {:name => 'Puglie', :position => 7}
   {:name => 'Doge', :position => 12}
-  {:name => 'Puggo', :position => 27} #PUGGO GO FAR.
+  {:name => 'Sammy', :position => 27} #SAMMY GO FAR.
 ]
 
 def get_absent_dogs(dogs, boundary = 10) #puts my_dogs into 'dogs', sets default boundary to 10
