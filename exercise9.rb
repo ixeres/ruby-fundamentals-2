@@ -8,8 +8,8 @@ def list_list(grocery) #LIST THE LIST.
   end
 end
 
-def list_add(list, item)
-  list << item
+def list_add(list, item) #list must be first value, item to be added is the second value.
+  list << item #shovels the new item onto the list.
 end
 
 list_add(grocery_list, "tomato") #JUST ONE TOMATO.
@@ -25,3 +25,9 @@ def banana_check(list) #The dreaded banana check.
     puts "You don't need no nanners."
   end
 end
+
+grocery_list.fetch(1) #gets second item from the list.
+
+list_list(grocery_list.sort) #Alphabetical order list is displayed.
+
+list_list(grocery_list.pop(2)) #should pop the salmon off the list and redisplay.
